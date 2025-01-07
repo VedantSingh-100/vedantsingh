@@ -398,6 +398,8 @@ p {
     height: 400px; /* Remove the fixed height */
     border: 2px solid rgba(44, 130, 201, 1);
     padding: 5px;
+    display: block; /* Ensures the image acts like a block element */
+    margin: 0 auto; /* Centers the image horizontally */
 }
 
 
