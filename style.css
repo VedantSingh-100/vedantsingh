@@ -395,7 +395,7 @@ p {
 
 .portfolio-img {
     width: 100%; /* Make the image width responsive to the container size */
-    height: 400px; /* Remove the fixed height */
+    height: auto; /* Remove the fixed height */
     border: 2px solid rgba(44, 130, 201, 1);
     padding: 5px;
     display: block; /* Ensures the image acts like a block element */
