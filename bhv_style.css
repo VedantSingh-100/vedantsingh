@@ -163,6 +163,53 @@ section {
     padding: 20px;
 }
 
+.carousel img,
+.img-fluid,
+.d-block {
+            width: 100% !important;
+            min-width: 100% !important;
+            height: 100% !important;
+            min-height: 100% !important;
+            height: auto;
+        } 
+
+
+        #tutorials {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(img2k2.jpg);
+            background-size: cover;
+            background-position: center;
+            color: #efefef !important;
+            background-attachment: fixed;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        #portfolio {
+            background-color: #374863;
+        }
+        .section-padding {
+            padding: 60px 0px;
+        }
+        article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+            display: block;
+        }
+
+        *, ::after, ::before {
+            box-sizing: border-box;
+        }
+        user agent stylesheet
+        section {
+            display: block;
+        }
+
+        .col-sm-12{
+            position: relative;
+            width: 100%;
+            min-height: 1px;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+
 /* Section Heading Styling */
 .bhv-section-heading {
     font-size: 2rem;
