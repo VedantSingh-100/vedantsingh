@@ -2685,3 +2685,38 @@ h2 {
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
 footer {display:table-row;}
 footer {height:1px;}
+
+/* General Section Styling */
+section {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Heading */
+.section-heading {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Text Styling */
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+  text-align: justify;
+}
+
+/* List Styling */
+ul {
+  list-style-type: disc;
+  margin-left: 40px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+}
