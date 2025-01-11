@@ -1,0 +1,114 @@
+/* bhv-style.css */
+
+/* General Section Styling */
+section {
+    padding: 40px 20px;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Container Styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Section Heading Styling */
+.bhv-section-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2c3e50;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #2980b9;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+/* Objectives List */
+.objectives-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.objectives-list li {
+    font-size: 1.2rem;
+    color: #34495e;
+    margin: 15px 0;
+    padding: 15px 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.objectives-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Icons in Objectives List */
+.objectives-list li i {
+    font-size: 1.5rem;
+    color: #3498db;
+    margin-right: 15px;
+}
+
+/* Paragraph Styling */
+.container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    margin: 15px 0;
+}
+
+/* Unordered List Styling */
+.container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.container ul li {
+    font-size: 1.1rem;
+    color: #2c3e50;
+    margin: 10px 0;
+    padding: 10px 15px;
+    background-color: #ecf0f1;
+    border-left: 5px solid #3498db;
+    border-radius: 5px;
+}
+
+/* Add Hover Effect to List Items */
+.container ul li:hover {
+    background-color: #d6eaf8;
+    border-left: 5px solid #2980b9;
+    transition: background-color 0.3s ease, border-left-color 0.3s ease;
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 768px) {
+    .bhv-section-heading {
+        font-size: 1.8rem;
+    }
+
+    .objectives-list li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .objectives-list li i {
+        margin-bottom: 10px;
+    }
+
+    .container ul li {
+        font-size: 1rem;
+    }
+}
