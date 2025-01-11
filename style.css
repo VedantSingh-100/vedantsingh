@@ -29,8 +29,8 @@
 #imgg {
   max-height: 40vh; /* Limit the height to 40% of the viewport height */
   width: auto;      /* Automatically adjust width to maintain aspect ratio */
-  float: right;   /* Center the image */
-  margin: 10px;
+  margin-left: 35%;   /* Center the image */
+  margin-right: auto;
 }
 
 
@@ -2520,7 +2520,9 @@ h2 {
 
 #imgg {
   max-height: 40vh; /* Limit the height to 40% of the viewport height */
-  width: auto;      /* Automatically adjust width to maintain aspect ratio */
+  width: auto;
+  margin-left: 30%;
+  margin-right: auto;      /* Automatically adjust width to maintain aspect ratio */
   float: right;   /* Center the image */
   margin: 10px;
 }
