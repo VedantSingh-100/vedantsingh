@@ -18,13 +18,23 @@
     position: relative;
 }
 
-#imgg{
+/* #imgg{
     height: 40vh;
     width:30%;
     margin-left: 35%;
     margin-right: auto;
 
+} */
+
+#imgg {
+  max-height: 40vh; /* Limit the height to 40% of the viewport height */
+  width: auto;      /* Automatically adjust width to maintain aspect ratio */
+  margin-left: auto;
+  margin-right: auto;
+  display: block;   /* Center the image */
+  margin: 10px;
 }
+
 
 .navbar-nav li {
     padding: 0 10px;
