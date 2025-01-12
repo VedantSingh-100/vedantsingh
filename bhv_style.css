@@ -6,12 +6,13 @@
     width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center; /* Center the navbar items */
+    text-align: center;
 }
 
 .navbar {
     background: transparent;
     justify-content: center;
+    padding: 10px 0;
 }
 
 .navbar-brand {
@@ -90,12 +91,12 @@
     height: 100vh;
 }
 
-/* Center alignment for navbar */
-.navbar-nav li {
-    text-align: center;
+/* Objectives Section */
+.objectives-section {
+    padding: 60px 15px;
+    background-color: #f9f9f9;
 }
 
-/* Section Heading Styling */
 .bhv-section-heading {
     font-size: 2rem;
     font-weight: bold;
@@ -108,7 +109,6 @@
     padding-bottom: 10px;
 }
 
-/* Objectives List */
 .objectives-list {
     list-style: none;
     padding: 0;
@@ -134,14 +134,19 @@
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-/* Icons in Objectives List */
 .objectives-list li i {
     font-size: 1.5rem;
     color: #3498db;
     margin-right: 15px;
 }
 
-/* Paragraph Styling */
+/* Containers for Sections */
+.container {
+    padding: 20px 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .container p {
     font-size: 1.1rem;
     line-height: 1.6;
@@ -149,48 +154,13 @@
     margin: 15px 0;
 }
 
-/* Unordered List Styling */
-.container ul {
-    list-style: none;
-    padding: 0;
-}
-
-.container ul li {
-    font-size: 1.1rem;
-    color: #2c3e50;
-    margin: 10px 0;
-    padding: 10px 15px;
-    background-color: #ecf0f1;
-    border-left: 5px solid #3498db;
-    border-radius: 5px;
-}
-
-/* Add Hover Effect to List Items */
-.container ul li:hover {
-    background-color: #d6eaf8;
-    border-left: 5px solid #2980b9;
-    transition: background-color 0.3s ease, border-left-color 0.3s ease;
+/* Section Spacing */
+.section-spacing {
+    margin-top: 100px; /* Ensure proper spacing below the carousel */
 }
 
 /* Media Query for Responsiveness */
 @media (max-width: 768px) {
-    .bhv-section-heading {
-        font-size: 1.8rem;
-    }
-
-    .objectives-list li {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .objectives-list li i {
-        margin-bottom: 10px;
-    }
-
-    .container ul li {
-        font-size: 1rem;
-    }
-
     #slider {
         height: 70vh;
     }
@@ -201,5 +171,18 @@
 
     .nav-link {
         font-size: 0.9rem;
+    }
+
+    .objectives-section {
+        padding: 30px 15px;
+    }
+
+    .objectives-list li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .objectives-list li i {
+        margin-bottom: 10px;
     }
 }
