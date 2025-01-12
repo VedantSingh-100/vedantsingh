@@ -1,54 +1,216 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project Title</title> <!-- Replace 'Project Title' with the actual title -->
-    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS for styling -->
-</head>
+    <title> Bioprosthetic Heart Valve </title>
+    <link rel="stylesheet" href="bhv_style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="skills-diagram.coderbits.js"></script>
+
+        <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+
+    8
+
+      </head>
+
+
 <body>
-    <!-- Main Container -->
-    <div class="container">
-        <!-- Page Title -->
-        <header>
-            <h1>Project Title</h1> <!-- Replace 'Project Title' with your project's title -->
-        </header>
-        
-        <!-- Introduction Section -->
-        <section id="introduction">
-            <h2>Introduction</h2>
-            <p>
-                <!-- Add the introduction content here -->
-                This section provides an overview of the project, including the motivation, objectives, and significance.
-            </p>
-        </section>
-        
-        <!-- Methodology Section -->
-        <section id="methodology">
-            <h2>Methodology</h2>
-            <p>
-                <!-- Add the methodology content here -->
-                This section describes the methods and techniques used to achieve the project's objectives, including tools, algorithms, and procedures.
-            </p>
-        </section>
-        
-        <!-- Results Section -->
-        <section id="results">
-            <h2>Results</h2>
-            <p>
-                <!-- Add the results content here -->
-                This section presents the key findings and outcomes of the project, supported by data, images, or graphs.
-            </p>
-        </section>
-        
-        <!-- Discussion and Future Directions Section -->
-        <section id="discussion">
-            <h2>Discussion and Future Directions</h2>
-            <p>
-                <!-- Add the discussion content here -->
-                This section discusses the implications of the results, potential limitations, and future directions for related work or improvements.
-            </p>
-        </section>
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#publications">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#certs">Certificates</a>
+                    </li>
+                </ul>
+                <div class="abc">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/Natassha">GitHub</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.linkedin.com/in/natassha-selvaraj-33430717a/">LinkedIn</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="https://medium.com/@natassha6789">Medium</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="https://www.hackerrank.com/natassha6789">HackerRank</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </section>
+    <!--Slider-->
+    <div id="slider">
+        <div id="headerSlider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#headerSlider" data-slide-to="0" class="active"></li>
+                <li data-target="#headerSlider" data-slide-to="1"></li>
+                <li data-target="#headerSlider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block img-fluid" src="Images/Project/Healthcare.png" alt="First slide">
+                    <div class="carousel-caption">
+                        <h1>Bioprosthetic Heart <span class="decorate"> Valve </span> </h1>
+                            <!-- <br> Welcome to my data science portfolio! </h1> -->
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block img-fluid" src="Images/Project/Healthcare2.png" alt="Second slide">
+                    <div class="carousel-caption">
+                        <h1> Machine Learning in Healthcare </h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block img-fluid" src="Images/Project/Resized Healthcare.jpg" alt="Third slide">
+                    <div class="carousel-caption">
+                        <h1> Machine Learning in Healthcare </h1>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#headerSlider" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#headerSlider" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
     </div>
+
+<style>
+.img-fluid {
+  opacity: 0.6;
+}
+
+.carousel-caption {
+  font-weight: bold !important;
+  font-family: cursive;
+  font-size: 60px !important;
+}
+
+h1 {
+  font-size: 60px !important;
+  font-weight: bold !important;
+}
+</style>
+    <!-- Objectives Section -->
+    <div id="objectives" class="section-spacing">
+        <div class="container">
+            <h2 class="bhv-section-heading">Objectives</h2>
+            <ul class="objectives-list">
+                <li>
+                    <i class="fa fa-check-circle"></i>
+                    To develop a rapid and accurate surrogate modeling framework for bioprosthetic heart valves.
+                </li>
+                <li>
+                    <i class="fa fa-check-circle"></i>
+                    To predict deformation biomechanics and key performance metrics with high precision.
+                </li>
+                <li>
+                    <i class="fa fa-check-circle"></i>
+                    To integrate deep learning techniques to enhance computational efficiency and scalability.
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <div id="methodology" class="section-spacing">
+        <div class="container">
+            <h2 class="bhv-section-heading">Methodology</h2>
+            <ul class="objectives-list">
+                <li>
+                    <i class="fa fa-check-circle"></i>
+                    Conducted simulations on decarbonization building geometries, maintaining a constant area for comparative analysis.
+                </li>
+                <li>
+                    <i class="fa fa-check-circle"></i>
+                    Implemented fractional step and finite difference methods for velocity and pressure computations.
+                </li>
+                <li>
+                    <i class="fa fa-check-circle"></i>
+                    Used staggered Cartesian meshes and dynamic time-stepping to ensure numerical stability and precision.
+                </li>
+                <li>
+                    <i class="fa fa-check-circle"></i>
+                    Evaluated performance using metrics like re-entrainment percentages, turbulence, and pressure gradients.
+                </li>
+            </ul>
+            
+        </div>
+    </div>
+    
+    <div id="results" class="section-spacing">
+        <div class="container">
+            <h2 class="bhv-section-heading">Results</h2>
+            <ul class="objectives-list">
+                <li>
+                    <i class="fa fa-check-circle"></i>
+                    10x20 and 8x25 configurations minimized re-entrainment to 5.08% and 7.03%, demonstrating enhanced decarbonization efficiency.
+                </li>
+                <li>
+                    <i class="fa fa-check-circle"></i>
+                    Wider configurations like 20x10 resulted in higher re-entrainment (11.68%), highlighting geometry's critical role in airflow management.
+                </li>
+                <li>
+                    <i class="fa fa-check-circle"></i>
+                    Achieved streamlined velocity fields and reduced turbulence in taller structures, validating computational efficiency.
+                </li>
+            </ul>            
+        </div>
+    </div>
+    <!-- Future Scope Section -->
+    <div id="future-scope" class="section-spacing">
+        <div class="container">
+            <h2 class="bhv-section-heading">Future Scope</h2>
+            <ul class="objectives-list">
+                <li>
+                    <i class="fa fa-check-circle"></i>
+                    Expand simulations to 3D geometries and dynamic wind conditions for more robust predictions.
+                </li>
+                <li>
+                    <i class="fa fa-check-circle"></i>
+                    Explore hybrid configurations combining tall cores with optimized outlet designs for balanced efficiency and feasibility.
+                </li>
+                <li>
+                    <i class="fa fa-check-circle"></i>
+                    Develop predictive tools using AI for real-time optimization of building designs under varying environmental conditions.
+                </li>
+                <li>
+                    <i class="fa fa-check-circle"></i>
+                    Collaborate with multidisciplinary teams to translate findings into practical applications.
+                </li>
+            </ul>            
+        </div>
+    </div>
+    
+    </section>
+
 </body>
+
 </html>
