@@ -92,7 +92,10 @@
 }
 
 /* Objectives Section */
-.objectives-section {
+/* Objectives Section */
+.objectives-section,
+.methodology-section,
+.results-section {
     padding: 60px 15px;
     background-color: #f9f9f9;
 }
@@ -147,17 +150,11 @@
     margin: 0 auto;
 }
 
-.container p {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    color: #555;
-    margin: 15px 0;
-}
-
 /* Section Spacing */
 .section-spacing {
-    margin-top: 100px; /* Ensure proper spacing below the carousel */
+    margin-top: 100px;
 }
+
 
 /* Media Query for Responsiveness */
 @media (max-width: 768px) {
